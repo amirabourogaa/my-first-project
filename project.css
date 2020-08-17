@@ -1,7 +1,7 @@
 
 
 .header {
-  padding: 60px;
+  padding: 20px;
   text-align: center;
   background: #1abc9c;
   color: white;
@@ -9,3 +9,62 @@
   font-family: "Sofia";
 }
 
+.sidenav {
+  border: 5px outset white;
+  background-color: yellow;
+  text-align: left;
+   font-size: 20px;
+}
+
+p{
+	font-size: 50px;	
+}
+
+li{
+	color: blue;
+	 text-decoration: underline;
+}
+
+.chat-popup{
+
+	border: none;
+	width: 50%;
+	font-family: "Sofia";
+}
+
+.form-container {
+  width:  300px;
+  border-color: white;
+ background-image:url("https://i.pinimg.com/originals/73/b5/ef/73b5ef00df1ceac9ab739fcb7120bd2e.gif" ) ; 
+
+
+
+}
+
+.form-container textarea {
+  width: 50%;
+  padding: 15px;
+  margin: 3px 0 20px 0;
+  border: :none;
+  background: #f1f1f1;
+  resize: none;
+  min-height: 200px;
+}
+
+
+.form-container textarea:focus {
+  background-color: 
+  outline: none;
+  border: none;
+}
+
+.form-container .btn {
+  background-color: #1abc9c;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
