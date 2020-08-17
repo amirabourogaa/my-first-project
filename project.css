@@ -1,9 +1,19 @@
+#panel, #flip {
+  padding: 5px;
+  text-align: center;
+  background-color:pink;
+  border: solid 1px #c3c3c3;
+}
 
+#panel {
+  padding: 50px;
+  display: none;
+}
 
 .header {
   padding: 20px;
   text-align: center;
-  background: #1abc9c;
+  background-color: #CC0066;
   color: white;
   font-size: 30px;
   font-family: "Sofia";
@@ -11,9 +21,42 @@
 
 .sidenav {
   border: 5px outset white;
-  background-color: yellow;
+  background-color: pink;
   text-align: left;
    font-size: 20px;
+}
+
+#play {
+
+  background-image: url("https://media0.giphy.com/media/2tMuOCL17ObOPNBdfV/giphy.gif"); 
+  color: white;
+
+}
+#alphabet{
+ background-image: url("https://media0.giphy.com/media/2tMuOCL17ObOPNBdfV/giphy.gif"); 
+  color: white;
+}
+
+#birds {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+#cat {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  width: 200px;
+}
+#dog {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  width: 200px;
+}
+body {
+	background-color:white; 
 }
 
 p{
@@ -32,16 +75,23 @@ li{
 	font-family: "Sofia";
 }
 
-.form-container {
+
+
+.container {
   width:  300px;
   border-color: white;
- background-image:url("https://i.pinimg.com/originals/73/b5/ef/73b5ef00df1ceac9ab739fcb7120bd2e.gif" ) ; 
+ background-image:url("https://media0.giphy.com/media/2tMuOCL17ObOPNBdfV/giphy.gif" ) ; 
 
 
 
 }
+span{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start; 
+}
 
-.form-container textarea {
+.container textarea {
   width: 50%;
   padding: 15px;
   margin: 3px 0 20px 0;
@@ -52,13 +102,13 @@ li{
 }
 
 
-.form-container textarea:focus {
+.container textarea:focus {
   background-color: 
   outline: none;
   border: none;
 }
 
-.form-container .btn {
+.container .btn {
   background-color: #1abc9c;
   color: white;
   padding: 16px 20px;

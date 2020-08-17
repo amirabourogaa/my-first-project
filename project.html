@@ -17,34 +17,102 @@
 <body>
 
 <div class="header">
-  	<h1> KID'S WITH MIRA   </h1>
+  	<h1> KID'S WITH MIRA  </h1>
   	<p>welcome !</p>
  
 </div>
 
 
-<div id="mySidenav" class="sidenav">
+<div id="nav" class="sidenav">
  
   <a href="#">About</a>
   <a href="#">Services</a>
-  <a href="#">Clients</a>
-  <a href="#">Contact</a>
+  
+
 </div>
 
-
+<span>
 <nav class="chat-popup" id="myForm">
-  <form  class="form-container">
+  <div  class="container">
     <h1>hello cutie </h1>
 
-    <label for="msg"><b>Message</b></label>
-    <textarea placeholder="Type message.." name="msg" required></textarea>
+    <label for="color"><b>lets play a small game : you can tape the color you want to change and click CHANGE ;D </b></label>
+    <textarea id= "inputcolor" placeholder="Type message.." name="msg" required></textarea>
 
-    <button type="submit" class="btn">Send</button>
-    
-  </form>
+    <button  class="btn" onclick="myFunction()">change</button>
+   
+  </div>
 
 </nav>
 
+<div class ="video">
+	<h1 id="alphabet">let's learn Alphabet</h1>
+	<iframe width="853" height="480" src="https://www.youtube.com/embed/hq3yfQnllfQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
+</span>
+<div id="animalsGame">
+<h1 id='play'>let's play the animals sound</h1>
+	<audio id="myAudio">
+  
+  <source src="Meowing-cat-sound.mp3" type="audio/mp3">
+  
+</audio>
+
+<img id="cat" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQj-V79HIP0RXtsOnXK5WD9ooceGzL3e_zLAg&usqp=CAU" onclick="playAudio()" >
+
+<script>
+var x = document.getElementById("myAudio"); 
+
+function playAudio() { 
+  x.play(); 
+} 
+
+
+</script>
+
+<audio id="myAudio2" >
+  
+  <source src="Blackbird-call.mp3" type="audio/mp3">
+  
+</audio>
+
+<img id="birds" src="https://i.pinimg.com/originals/c1/49/22/c14922ece61073d7e37fb7532378d7f5.jpg" onclick="playAudio2()" >
+
+
+
+<script>
+var y = document.getElementById("myAudio2"); 
+
+function playAudio2() { 
+  y.play(); 
+} 
+
+</script>
+<audio id="myAudio3">
+	<source src="Small-dog-barking-noise.mp3" type="audio/mp3">
+</audio>
+
+<img id="dog" src="https://2.bp.blogspot.com/-heLpXegowfM/Wspl9Mo03OI/AAAAAAAB5xE/Rd62PDicS0YmAKjN26kAN7LJY9HjsniZACLcBGAs/s1600/cute-dogs-224-01.jpg" onclick="playAudio3()" >
+
+<script>
+var z = document.getElementById("myAudio3"); 
+
+function playAudio3() { 
+  z.play(); 
+} 
+
+</script>
+
+</div>
+<div id="flip">Click to see your surprise</div>
+<div id="panel">Hello world!</div>
+<script> 
+$(document).ready(function(){
+  $("#flip").click(function(){
+    $("#panel").slideDown("slow");
+  });
+});
+</script>
 </body>
 </html>
