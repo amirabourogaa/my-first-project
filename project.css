@@ -1,14 +1,24 @@
-#panel, #flip {
+ #flip {
   padding: 5px;
   text-align: center;
   background-color:pink;
   border: solid 1px #c3c3c3;
-}
+  font-family: "Sofia";
 
-#panel {
-  padding: 50px;
-  display: none;
 }
+#panel {
+  padding: 1px;
+  text-align: left;
+   font-size: 25px;
+  background-color:pink;
+  border: solid 1px #c3c3c3;
+  padding: 40px;
+  display: none;
+  font-family: "Sofia";
+
+}
+  
+
 
 .header {
   padding: 20px;
@@ -21,7 +31,7 @@
 
 .sidenav {
   border: 5px outset white;
-  background-color: pink;
+  background-color:  #CC0066;
   text-align: left;
    font-size: 20px;
 }
@@ -59,9 +69,7 @@ body {
 	background-color:white; 
 }
 
-p{
-	font-size: 50px;	
-}
+
 
 li{
 	color: blue;
@@ -117,4 +125,7 @@ span{
   width: 50%;
   margin-bottom:10px;
   opacity: 0.8;
+}
+h2 {
+  text-shadow: 2px 2px 5px green;
 }
