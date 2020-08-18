@@ -12,20 +12,31 @@
   integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
   crossorigin="anonymous"></script>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
 
 <div class="header">
   	<h1> KID'S WITH MIRA  </h1>
-  	<p>welcome !</p>
+  
+  	
+
  
 </div>
 
 
+
 <div id="nav" class="sidenav">
  
-HAVE FUN </div>
+<div class="home">
+    <i class="fa fa-home"></i>
+    <i class="fa fa-search"></i>
+
+    <i class="fa fa-trash"></i>
+    Welcome!
+  </div>
+   </div>
 
 <span>
 
@@ -34,7 +45,7 @@ HAVE FUN </div>
     <h1>hello cutie </h1>
 
     <label for="color"><b>lets play a small game : you can tape the color you want to change and click CHANGE ;D </b></label>
-    <textarea id= "inputcolor" placeholder="Type message.." name="msg" required></textarea>
+    <textarea id= "inputcolor" placeholder="Type your favourite color.." name="msg" required></textarea>
 
     <button  class="btn" onclick="myFunction()">change</button>
    
@@ -162,14 +173,33 @@ $(document).ready(function(){
 	<a href="https://quickdraw.withgoogle.com/"><img src="https://previews.123rf.com/images/migfoto/migfoto1502/migfoto150200032/37139125-child-draws-a-pencil-drawing-of-the-world.jpg" style="width:400px;height:400px;"></a>
 	
 </div>
-<div  id='coloring'><h1 >Time for coloring :D !!! </h1> 
+<div  ><h1 id='coloring'>Time for coloring :D !!! </h1> 
 
 	<a href="https://www.hugolescargot.com/coloriages/coloriage-en-ligne/"><img src=https://i.ytimg.com/vi/QTh5eFJ1cqc/maxresdefault.jpg style="width:400px;height:400px;
 	align-content: right"></a>
 	</div>
+	<div  ><h1 id='quiz'>Test your intellegence ;D ! </h1> 
+
+	<a href="https://www.funeducation.com/Tests/KidsISIQ/TakeTest.aspx"><img src=https://www.kisssudbury.com/wp-content/uploads/sites/14/2016/06/welcome-directory-of-kids-quizzes.jpg style="width:400px;height:400px;
+	align-content: right"></a>
+	</div>
 </span>
+
+<script>
+$(document).ready(function(){
+  $("#quiz").mouseover(function(){
+    $("#quiz").css("background-color", "yellow");
+  });
+  $("#quiz").mouseout(function(){
+    $("#quiz").css("background-color", "lightgray");
+  });
+});
+</script>
 <div class="footer">
-  <p>wish you enjoyed !</p>
+  <a href="#"> EMAIL:amirabourogaa0@gmail.com</a>
+    <a href="#"> contact: 58202884</a>
+    <a href="https://www.facebook.com/profile.php?id=100024787816809"> meet me on FB</a>
+    
 
 </div>
 
