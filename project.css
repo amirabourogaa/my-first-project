@@ -126,6 +126,27 @@ span{
   margin-bottom:10px;
   opacity: 0.8;
 }
+
 h2 {
   text-shadow: 2px 2px 5px green;
+}
+
+.footer{
+	 background-color: #CC0066;
+	 padding: 10px;
+  	text-align: right;
+  
+  color: white;
+  font-size: 20px;
+  font-family: "Sofia";
+}
+
+#colors{
+	display: flex;
+	flex-direction: row;
+
+	justify-content: flex-start; 
+
+	
+	 background-image: url("https://previews.123rf.com/images/5second/5second1703/5second170300136/73145021-drawing-colourful-pencils-on-brown-wooden-table.jpg"); 
 }
